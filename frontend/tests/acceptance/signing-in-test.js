@@ -12,6 +12,7 @@ module('Acceptance: Signing In', {
 
     // this is never called
     server.post('/api/v1/token', function(request) {
+      debugger;
       var payload = {
         user_token: 'gvSkMer7hZpw9iZsBZ4r',
         user_id: 3
